@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;700&display=swap');
+/*  */
+body, html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+    background-image: url(./images/sunstyle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 80%;
+    padding: 40px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.title {
+    font-family: 'Advent Pro', sans-serif;    
+}    
+
+.border {
+    height: 1px;
+    width: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.blackjack {
+    height: 180px;
+    width: 220px;
+}
+.thumb {
+    height: 140px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    z-index: 5;
+    position: relative;
+    background-image: url(./images/bjthumb.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.back {
+    height: 160px;
+    width: 200px;
+    background-color: rgb(36, 36, 36);
+    border-radius: .5rem;
+    position: relative;
+    bottom: 120px;
+    right: -20px;
+    z-index: 0;
+}
+.back h4 {
+    position: relative;
+    top: 130px;
+}
+
+.index {
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-radius: 1px;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
