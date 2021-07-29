@@ -138,4 +138,7 @@ a {
         width: 90%;
         max-height: max-content;
     }
+    a {
+        padding: 0px;
+    }
 }
