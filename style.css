@@ -68,9 +68,19 @@ body, html {
     border: 2px solid white;
     padding: 10px;
 }
-
-
-
+@media only screen and (max-width: 675px) {
+    .main {
+        flex-direction: column;
+    }
+    .border {
+        width: 100px;
+        height: 1px;
+        margin: 20px;
+    }
+    .me {
+        margin: 10px;
+    }
+}
 
 
 
