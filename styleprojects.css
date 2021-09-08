@@ -104,16 +104,17 @@ a {
 }
 
 .projects {
+    height: 90%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     place-items: center;
-    place-content: center;
+
     overflow: hidden;
     
 }
 
-@media only screen and (max-width: 1410px) {
+@media only screen and (max-width: 1460px) {
     .projects {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -143,3 +144,18 @@ a {
         padding: 0px;
     }
 }
+@media only screen and (max-width: 484px) {
+    .projects {
+        overflow: scroll;
+        grid-template-columns: 1fr;
+    }
+    .main {
+        width: 90%;
+        max-height: 90vh;
+        
+    }
+    a {
+        padding: 0px;
+    }
+}
+
