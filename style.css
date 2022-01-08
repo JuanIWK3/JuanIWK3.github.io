@@ -1,91 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;700&display=swap");
 /*  */
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
 * {
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: white;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
 }
 
 .img {
-    background-image: url(./images/sunstyle.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(./images/sunstyle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    height: 100%;
+  height: 100%;
 
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 
 .main {
-    min-width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 80%;
-    padding: 40px;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  padding: 40px;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
 .projects {
-    font-family: 'Advent Pro', sans-serif;
-    cursor: pointer;
-    border: 2px solid rgba(255, 255, 255, 0);
-    padding: 10px;
-    
+  font-family: "Advent Pro", sans-serif;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 10px;
 }
 .about {
-    font-family: 'Advent Pro', sans-serif;
-    cursor: pointer;
-    border: 2px solid rgba(255, 255, 255, 0);
-    padding: 10px;
-    
+  font-family: "Advent Pro", sans-serif;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 10px;
 }
 .border {
-    background-color: white;
-    height: 40px;
-    width: 1px;
+  background-color: white;
+  height: 40px;
+  width: 1px;
 }
 
 .projects:hover {
-    border: 2px solid white;
-    padding: 10px;
+  border: 2px solid white;
+  padding: 10px;
 }
 .about:hover {
-    border: 2px solid white;
-    padding: 10px;
+  border: 2px solid white;
+  padding: 10px;
 }
 @media only screen and (max-width: 675px) {
-    .main {
-        flex-direction: column;
-    }
-    .border {
-        width: 100px;
-        height: 1px;
-        margin: 20px;
-    }
-    .me {
-        margin: 10px;
-    }
+  .main {
+    flex-direction: column;
+  }
+  .border {
+    width: 100px;
+    height: 1px;
+    margin: 20px;
+  }
+  .me {
+    margin: 10px;
+  }
 }
-
-
-
-
-
-
-
-
